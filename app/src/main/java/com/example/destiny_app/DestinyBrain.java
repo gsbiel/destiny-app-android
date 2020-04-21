@@ -61,7 +61,7 @@ public class DestinyBrain {
         return options;
     }
 
-    public void selectSceneForOption(int number) throws Exception {
+    public void updateSceneForOption(int number) throws Exception {
         int destination = this.scenes[this.currentScene].getDestinationForOption(number);
         this.currentScene = destination;
     }
