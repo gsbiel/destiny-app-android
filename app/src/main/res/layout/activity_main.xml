@@ -4,57 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <fragment
+        android:id="@+id/destinyFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
-
-        <TextView
-            android:id="@+id/sceneLabel"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="6"
-            android:gravity="center"
-            android:text="Hello World!"
-            android:textSize="22sp"
-            android:textColor="#fff"
-             />
-        <Button
-            android:id="@+id/firstChoice"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:background="@drawable/button1_shape"
-            android:layout_weight="1"
-            android:layout_marginBottom="10dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:textAllCaps="false"
-            android:text="First Option"
-            android:textColor="#fff"
-            android:textSize="18sp"
-
-            />
-        <Button
-            android:id="@+id/secondChoice"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:background="@drawable/button2_shape"
-            android:layout_weight="1"
-            android:layout_marginBottom="10dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:textAllCaps="false"
-            android:text="Second Option"
-            android:textColor="#fff"
-            android:textSize="18sp"
-             />
-
-
-    </LinearLayout>
-
+        tools:layout="@layout/fragment_destiny"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
