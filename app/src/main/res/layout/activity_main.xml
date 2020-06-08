@@ -8,6 +8,7 @@
 
     <fragment
         android:id="@+id/destinyFragment"
+        android:name="com.example.destiny_app.destiny.DestinyFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout="@layout/fragment_destiny"

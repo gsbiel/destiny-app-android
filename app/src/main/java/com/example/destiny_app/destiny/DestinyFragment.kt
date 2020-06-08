@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModelProviders
 import com.example.destiny_app.R
 import com.example.destiny_app.databinding.FragmentDestinyBinding
 
-class Destiny: Fragment() {
+class DestinyFragment: Fragment() {
 
     private lateinit var binding: FragmentDestinyBinding
     private lateinit var viewModel: DestinyViewModel
