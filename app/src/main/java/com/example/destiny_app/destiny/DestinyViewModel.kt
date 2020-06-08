@@ -86,12 +86,4 @@ data class Scene(val title: String,
                  val option1: String,
                  val option2:String,
                  val option1_destination: Int,
-                 val option2_destination: Int){
-
-    fun getDestinationForOptionNumber(number: Int):Int{
-        return when(number){
-            1 -> option1_destination
-            else -> option2_destination
-        }
-    }
-}
+                 val option2_destination: Int){}
